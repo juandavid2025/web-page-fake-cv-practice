@@ -1,0 +1,97 @@
+.row{
+    display: flex;
+    width: 100%;
+}
+
+.column{
+    text-align: center;
+    width: 100%;
+}
+
+.header{
+    background-color: rgb(97, 97, 97);
+    width: 100%;
+    display: flex;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    height: 40px;
+}
+
+h3{
+    display: inline;
+    margin: 5%;
+}
+
+.info-header{
+    margin: 0 auto;
+    color: white;
+    width: 100%;
+    align-items: center;
+}
+
+i{
+    padding: 1%;
+}
+
+.align-div{
+    height: 32px;
+}
+
+.middle-div{
+    height: 300px;
+}
+
+.picture-name{
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.hexagon-container-div{
+    height: 100%;
+    width: 100%;
+}
+
+.hexagon{
+    width: 400px;
+    height: 200px;
+    background: red;
+    transform: rotate(120deg);
+    
+    overflow: hidden;
+    visibility: hidden;
+    float: left;
+}
+
+.hexagon-inside {
+    width: 100%;
+    height: 100%;
+    background: green;
+    transform: rotate(-60deg);
+    overflow: hidden;
+}
+
+.hexagon-image{
+    width: 100%;
+    height: 100%;
+    background-image: url(http://placekitten.com/241/241);
+    background-position: center;
+    background-size: 100% 100%;
+    transform: rotate(-60deg);
+    visibility: visible;
+}
+
+.right-side-info{
+    float: left;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-weight: bold;
+    letter-spacing: 1pt;
+    right: 0px;
+}

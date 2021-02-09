@@ -1,0 +1,239 @@
+h3{
+    display: inline;
+    padding: 1%;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    margin: 1%;
+    font-size: 15px;
+}
+
+i{
+    padding: 1%;
+}
+
+#top-div{
+    background-color: rgb(97, 97, 97);
+    position: fixed;
+    color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#center-top-div{
+    position: relative;
+    display: inline;
+    margin-left: 150px;
+    margin-right: 150px;
+    width: 30px;
+}
+
+.hexagon{
+    width: 300px;
+    height: 200px;
+    background: red;
+    transform: rotate(120deg);
+    margin: 75px 100px 100px 0;
+    overflow: hidden;
+    visibility: hidden;
+    float: left;
+}
+
+.hexagon-inside {
+    width: 100%;
+    height: 100%;
+    background: green;
+    transform: rotate(-60deg);
+    overflow: hidden;
+}
+
+.hexagon-image{
+    width: 100%;
+    height: 100%;
+    background-image: url(http://placekitten.com/241/241);
+    background-position: center;
+    background-size: 100% 100%;
+    transform: rotate(-60deg);
+    visibility: visible;
+}
+
+.right-side-info{
+    float: left;
+    text-align: center;
+    margin: 100px 0 0 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-weight: bold;
+    letter-spacing: 1pt;
+    right: 0px;
+}
+
+hr{
+    border: 0;
+    border-top: 1px solid rgb(0,0,0,0.2);
+    margin: 0 5% 0;
+}
+
+span{
+    color: rgb(142, 213, 255);
+}
+
+#bottom-div{
+    width: 100%;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    height: 75%;
+}
+
+.column{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+.tittles{
+    color: rgba(49,149,181,255);
+    margin-bottom: 0;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.align-div{
+    height: 200px;
+}
+
+.tittle-lines{
+    width: 400px;
+}
+
+table{
+    align-items: center;
+    text-align: center;
+}
+
+.descrip-div{
+    border-left: 1px solid gray;
+    width: 100%;
+    height: 100%;
+}
+
+.decrip-text{
+    padding: 15px;
+    
+}
+
+p{
+    height: 100%;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.dates{
+    margin: 0;
+}
+
+.empresa{
+    margin: 20px 0 0 0;
+    color: rgb(105, 199, 253);
+}
+
+.aditional-info-text{
+    margin-left: 3%;
+}
+
+.education-text{
+    text-align: left;
+    margin: 20px;
+}
+
+.edu-text{
+    margin: 0;
+}
+
+.habilities-div{
+    display: flex;
+}
+
+.text-bold{
+    margin: 15px 0 0 0;
+    height: 20px;
+    font-weight: bolder;
+}
+
+.normal-text{
+    margin: 10px 0 0 0;
+    height: 20px;
+}
+
+.left-side-habilities{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.right-side-habilities{
+    width: 300px;
+}
+
+.circles-habilidades{
+    color: rgb(105, 199, 253);
+    margin: 5px;
+}
+
+.first-div{
+    margin: 50px 0 0 0;
+}
+
+.modal-bg{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s opacity 0.5s;
+}
+
+.bg-active{
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal{
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    width: 40%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+.modal-close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal-button{
+    cursor: pointer;
+}
